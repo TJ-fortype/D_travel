@@ -11,9 +11,5 @@
 </script>
 
 <style>
-	.container {
-		width: 1200;
-		margin: 0 auto;
-	}
 	
 </style>
