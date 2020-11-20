@@ -1,6 +1,6 @@
 <template>
 	<TopBar></TopBar>
-
+	<router-view></router-view>
 </template>
 
 <script>
