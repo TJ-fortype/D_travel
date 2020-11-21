@@ -1,15 +1,17 @@
 <template>
-	<TopBar></TopBar>
 	<router-view></router-view>
 </template>
 
 <script>
-	import TopBar from './components/TopBar.vue'
 	export default {
-		components:{TopBar,}
+		components:{}
 	}
 </script>
 
 <style>
-	
+	/* 全局样式 */
+	.container {
+		width: 1200px;
+		margin: 0 auto;
+	}
 </style>
