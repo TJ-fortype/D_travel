@@ -1,3 +1,4 @@
+
 <template>
 <div class="topbar">
 	<div class="container">
@@ -18,12 +19,17 @@
 				<router-link to="/experiences">体会</router-link>
 			</li>
 		</ul>
-		<div class="col">
-			<router-link to="/mf">
+		<div class="col" >
+			<router-link to="/mf" @mouseenter="openDropdown" @mouseleave="hideDropdown">
 				<i class="fa fa-heart-o">
 					<div>我喜爱的</div>
 				</i>
 			</router-link>
+			<div :class="dropdownMsg">
+				<li v-for="m in myFavorites">
+					{{m}}
+				</li>
+			</div>
 		</div>
 	</div>
 </div>
@@ -31,6 +37,28 @@
 
 <script>
 	export default {
+		components:{},
+		data(){
+			return{
+				myFavorites:[
+					'吃饭','睡觉','打豆豆',
+				],
+				dropdownMsg:{
+					dropdown:true,
+					open:false,
+				},
+			}
+		},
+		methods:{
+			openDropdown(){
+				this.dropdownMsg.open = true
+				console.log("啊啊啊进来了")
+			},
+			hideDropdown(){
+				this.dropdownMsg.open = false
+			},
+			
+		}
 		
 	}
 </script>
@@ -67,6 +95,18 @@
 	}
 	.container .col {
 		flex: .5;
+		position: relative;
 		font-size: 16px;
+		border-left: 1px solid #fff;
+	}
+	.col .dropdown {
+		display: none;
+		position: absolute;
+		border: 1px solid #fff;
+		padding: 2em 3em;
+		background: #00000090;
+	}
+	.container .col .open{
+		display: block;
 	}
 </style>
