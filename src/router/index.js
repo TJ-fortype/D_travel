@@ -15,6 +15,7 @@ const routes = [
 	{path: '/mf', component: MyFavorite},
 	{path: '/:pathNotFound(.*)', component: NotFound},
 	
+	
 ]
 
 const router = createRouter({
