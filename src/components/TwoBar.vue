@@ -67,7 +67,7 @@
 	.bor{
 		width: 118px;
 		height: 44px;
-		line-height:44px;
+		line-height:42px;
 		border-radius:10px;
 		text-align:center;
 		font-size: 14px;
