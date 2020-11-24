@@ -1,8 +1,8 @@
 <template>
-	<div class="container">
+	<div class="infocontainer">
 		<div class="topimg">
 			<div class="imgfonts">
-				<div class="imgtop">旅游信息	</div>
+				<div class="imgtop"> 旅 游 信 息	</div>
 				<hr color="#fff" width="3%" size=6px>
 			</div>
 			
@@ -15,7 +15,8 @@
 </script>
 
 <style>
-	.container{
+	.infocontainer{
+		color: #FFFFFF;
 		width: 100%;
 		height: 580px;
 		/* line-height: 580px; */
@@ -23,7 +24,7 @@
 	.topimg{
 		width: 100%;
 		height: 100%;
-		background: url(../assets/img/TravelInfoheader.jpg) no-repeat  center;
+		background: url(../assets/img/info/TravelInfoheader.jpg) no-repeat  center;
 		background-size:cover;
 	}
 	.imgfonts{

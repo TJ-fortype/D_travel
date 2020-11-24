@@ -8,7 +8,7 @@
 			<div class="bgimg">
 				<div class="imgfont">
 					<div class="imgtop">
-						在新冠病毒流行期间前往芬兰的旅行者的实用信息
+						在新冠疫情流行期间前往芬兰的旅行者的实用信息
 					</div>
 					<div class="imgfoot">
 						<a href="#">
@@ -34,6 +34,7 @@
 	.container{
 			width: 100%;
 			height: 722px;
+			margin-bottom: 240px;
 			/* background: #000; */
 		}
 	

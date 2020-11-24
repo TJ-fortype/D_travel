@@ -1,15 +1,24 @@
 <template>
-	<TravelInfoTop></TravelInfoTop>
+	<InfoTop></InfoTop>
+	<InfoTwo></InfoTwo>
+	<InfoThree></InfoThree>
+	<InfoFour></InfoFour>
+	<InfoFive></InfoFive>
 </template>
 
 <script>
-	import TravelInfoTop from '../components/TravelInfoTop.vue'
+	import InfoTop from '../components/InfoTop.vue'
+	import InfoTwo from '../components/InfoTwo.vue'
+	import InfoThree from '../components/InfoThree.vue'
+	import InfoFour from '../components/InfoFour.vue'
+	import InfoFive from '../components/InfoFive.vue'
 	export default{
 		components:{
-			TravelInfoTop
+			InfoTop,InfoTwo,InfoThree,InfoFour,InfoFive
 		},
 	}
 </script>
 
 <style>
+	
 </style>
