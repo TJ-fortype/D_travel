@@ -5,13 +5,15 @@
 			<span class="fa fa-chevron-left fa-4x"></span>
 		</div>
 		
-		<div class="infocarouselleft">
+		<div class="infocarouselleft" >
 			<!--旅游信息-->
-			<div class="infocarousellefttop">
-			<p class=""> 旅 游 信 息</p>
-			<p class="">选择交通工具</p>
-			 
-			</div>
+			<p class="infocarousellefttop1"> 旅 游 信 息</p>
+			<p class="infocarousellefttop2">选择交通工具</p>
+			<p class="infocarousellefttop3">
+				坐飞机 ---
+			<span class="fa fa-plane fa-2x plane"></span>	
+			</p>
+			<p class="infocarousellefttop4">芬兰共有27个机场，其中5个机场均有定期国际航班服务。芬兰的主要门户是赫尔辛基万塔国际机场。最北端的机场位于拉普兰的依瓦洛（Ivalo），距离北极圈约250公里。</p>
 			<!--交通工具-->
 			<div class="infocarouselleftright">
 				
@@ -29,6 +31,35 @@
 </template>
 
 <script>
+	export default{
+		data(){
+			return{
+				infocontainer4:[
+				{
+					
+				},
+				{
+					
+				},
+				{
+					
+				},
+				{
+					
+				},
+				{
+					
+				}
+			],
+			
+				
+			}
+		},
+		methods:{
+			
+		},
+	}
+	
 </script>
 
 <style>
@@ -42,11 +73,35 @@
 	}
 	.infocarouselleft{
 		float: left;
-		color: #fff;
+		width: 600px;
+		/* text-align:left; */
+		/* color: #fff; */
+		margin-top: 20px;
 		margin-left:60px;
 	}
-	.infocarousellefttop{
+	.infocarousellefttop1{
+		text-align:left;
+		font-weight: bold;
+		color: #fff;
 		font-size: 40px;
+		margin-bottom: 20px;
+	}
+	.infocarousellefttop2{
+		text-align:left;
+		font-weight: bold;
+		color: #fff;
+		font-size:14px;
+	}
+	.infocarousellefttop3{
+		text-align:left;
+		font-weight: bold;
+		color: #fff;
+		font-size:20px;
+	}
+	.infocarousellefttop4{
+		text-align:left;
+		color: #fff;
+		font-size:14px;
 	}
 	.infocarouselright{
 		float: right;
@@ -61,5 +116,7 @@
 		line-height: 550px;
 		float: left;
 	}
-	
+	.plane{
+		color: #FC5113;
+	}
 </style>

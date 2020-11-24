@@ -30,7 +30,7 @@
 		margin: 20px auto;
 		width: 1200px;
 		height:450px;
-		border: 1px solid #FFC0CB;
+		/* border: 1px solid #FFC0CB; */
 		margin-bottom: 40px;
 		
 	}
