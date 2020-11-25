@@ -13,6 +13,9 @@
 				<router-link to="/info">旅游信息</router-link>
 			</li>
 			<li>
+				<router-link to="/dest">目的地</router-link>
+			</li>
+			<li>
 				<router-link to="/seasons">季节</router-link>
 			</li>
 			<li>
