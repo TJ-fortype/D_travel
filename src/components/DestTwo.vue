@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
 		<div class="desttopimg">
 			<div class="destimgfonts">
 				<div class="destimgtop">欢迎来到赫尔辛基</div>
@@ -74,3 +74,4 @@
 		
 	}
 </style>
+ -->
