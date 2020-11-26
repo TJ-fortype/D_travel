@@ -17,7 +17,6 @@ const routes = [
 	{path: '/:pathNotFound(.*)', component: NotFound},
 	{path: '/:dest', component: Destination},
 	
-	
 ]
 
 const router = createRouter({
