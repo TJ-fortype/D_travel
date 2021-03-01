@@ -13,10 +13,13 @@
 				<router-link to="/info">旅游信息</router-link>
 			</li>
 			<li>
+				<router-link to="/dest">目的地</router-link>
+			</li>
+			<li>
 				<router-link to="/seasons">季节</router-link>
 			</li>
 			<li>
-				<router-link to="/experiences">体会</router-link>
+				<router-link to="/experiences">主题</router-link>
 			</li>
 		</ul>
 		<div class="col" >
@@ -41,7 +44,7 @@
 		data(){
 			return{
 				myFavorites:[
-					'吃饭','睡觉','打豆豆',
+					'文化','旅游','美食',
 				],
 				dropdownMsg:{
 					dropdown:true,
@@ -67,18 +70,23 @@
 	.topbar .container{
 		display: flex;
 		text-align: center;
+		
+	}
+	.container .menu li{
+		color: #999999;
 	}
 	.container .logo {
 		flex: 1;
 		display: inline-block;
 		opacity:0.7;  
-		font:30px/25px 'Microsoft yahei';  
-		-webkit-box-reflect: below 1px -webkit-gradient(linear, center top, center bottom, from(transparent),color-stop(0.2, transparent), to(white)); 
+		font:30px/25px 'Microsoft yahei'; 
+		/* -webkit-box-reflect: below 1px -webkit-gradient(linear, center top, center bottom, from(transparent),color-stop(0.2, transparent), to(white)); */
 	}
 	/* 页面列表 */
 	.container .menu {
 		flex: 2;
 		display: flex;
+		color: #999999;
 		vertical-align: middle;
 	}
 	/* 页面列表中的选择 */
@@ -104,7 +112,7 @@
 		position: absolute;
 		border: 1px solid #fff;
 		padding: 2em 3em;
-		background: #00000090;
+		background: #999;
 	}
 	.container .col .open{
 		display: block;
