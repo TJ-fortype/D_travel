@@ -1,6 +1,12 @@
 <template>
 	<div class="infocontainer4">
 		<!--左切换按钮-->
+<<<<<<< HEAD
+=======
+		<div class="controlleft">
+			<span class="fa fa-chevron-left fa-4x"></span>
+		</div>
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 		
 		<div class="infocarouselleft" >
 			<!--旅游信息-->
@@ -17,6 +23,12 @@
 			</div>
 		</div>
 		<!--右切换按钮-->
+<<<<<<< HEAD
+=======
+		<div class="controlright">
+			<span class="fa fa-chevron-right fa-4x"></span>
+		</div>
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 		<!--旅游出行工具地图-->
 		<div class="infocarouselright">
 			<img src="../assets/img/info/map021.png" alt="">
@@ -25,7 +37,38 @@
 </template>
 
 <script>
+<<<<<<< HEAD
 
+=======
+	export default{
+		data(){
+			return{
+				infocontainer4:[
+				{
+					
+				},
+				{
+					
+				},
+				{
+					
+				},
+				{
+					
+				},
+				{
+					
+				}
+			],
+			
+				
+			}
+		},
+		methods:{
+			
+		},
+	}
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 	
 </script>
 
@@ -74,6 +117,18 @@
 		float: right;
 		padding-right: 50px;
 	}
+<<<<<<< HEAD
+=======
+	
+	.controlright{
+		line-height: 550px;
+		float: right;
+	}
+	.controlleft{
+		line-height: 550px;
+		float: left;
+	}
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 	.plane{
 		color: #FC5113;
 	}

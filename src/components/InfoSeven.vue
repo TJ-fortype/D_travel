@@ -32,14 +32,20 @@
 		width: 100%;
 	}
 	.topimg6{
+<<<<<<< HEAD
 		
+=======
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 		width: 100%;
 		height: 580px;
 		background: url(../assets/img/info/04.jpg) no-repeat  center;
 		background-size:cover;
 	}
 	.imgfonts6{
+<<<<<<< HEAD
 		
+=======
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 		text-align: center;
 		padding-top: 230px;
 	
@@ -55,6 +61,7 @@
 	.infobottom6{
 		height: 200px;
 		padding-top: 40px;
+<<<<<<< HEAD
 		text-align: center;
 	}
 	.infobottom61{
@@ -62,10 +69,21 @@
 		font-weight:bold;
 		margin-top: 20px;
 		color: #999;
+=======
+		/* padding-bottom: 100px; */
+		/* border: 1PX solid #20B2AA; */
+	}
+	.infobottom61{
+		font-size: 14px;
+		font-weight:bold;
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 	}
 	.infobottom62{
 		font-size: 14px;
 		padding-bottom: 50px;
+<<<<<<< HEAD
 		color: #999;
+=======
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 	}
 </style>

@@ -43,19 +43,31 @@
 	.destimgfonts{
 		text-align:center;
 		padding-top: 210px;
+<<<<<<< HEAD
 		color: #999;
+=======
+		color: #fff;
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 		
 	
 	}
 	.destimgtop{
+<<<<<<< HEAD
 		color: #FFFFFF;
+=======
+		
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 		font-size:50px;
 		margin-bottom: 20px;
 	}
 	.desthlxj{
 		width: 100%;
 		height: 580px;
+<<<<<<< HEAD
 		
+=======
+		border: 1px solid #F97C80;
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 		/* padding-top:30px 100px 100px ; */
 		
 	}
@@ -65,6 +77,7 @@
 		margin: 50px 140px 40px;
 		text-indent: 2em;
 	}
+<<<<<<< HEAD
 	.desthlxjleft p {
 	 color: #666666;
 	}
@@ -72,11 +85,18 @@
 	.desthlxjtitle{
 		color: #666666;
 		text-align: center;
+=======
+	.desthlxjtitle{
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 		font-size: 30px;
 	}
 	.desthlxjright{
 		float: right;
+<<<<<<< HEAD
 		margin: 20px 140px 0 0;
+=======
+		margin: 40px 140px 0 0;
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 		
 	}
 </style>

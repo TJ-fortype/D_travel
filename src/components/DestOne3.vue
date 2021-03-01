@@ -48,7 +48,12 @@
 <style>
 	.destmain11 {
 		width: 100%;
+<<<<<<< HEAD
 		height: 600px;
+=======
+		height: 800px;
+		border: 1px solid #F97C80;
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 		margin: 20px auto;
 	}
 	.desttop1 {
@@ -57,26 +62,36 @@
 		font-weight: bold;
 		text-align: center;
 	}
+<<<<<<< HEAD
 	.desttop2{
 		color: #999;
 	}
 	.desttop1 h4{
 		color: #999;
 	}
+=======
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 	.destfoot1 {
 		width: 1200px;
 		height: 400px;
 		display: flex;
 		margin: 40px auto;
+<<<<<<< HEAD
+=======
+		border: 1px solid #FC5113;
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 	}
 	.destfoot1 li{
 		flex: 1;
 		margin: 20px 10px;
 	}
+<<<<<<< HEAD
 	.destfoot3 p {
 		text-align: center;
 		color: #666;
 	}
+=======
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 	.destfoot12 {
 		width: 280px;
 		height: 180px;

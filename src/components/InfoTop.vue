@@ -19,7 +19,10 @@
 		color: #FFFFFF;
 		width: 100%;
 		height: 580px;
+<<<<<<< HEAD
 		margin-top: 50px;
+=======
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 		/* line-height: 580px; */
 	}
 	.topimg{

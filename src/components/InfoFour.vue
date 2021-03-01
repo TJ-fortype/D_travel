@@ -1,8 +1,14 @@
 <template>
 	<div class="infocontainer3">
+<<<<<<< HEAD
 		<p style="color: #666666;font-size: 18px;">旅行社</p>
 		<p style="color: #666666;">许多旅行社都会提供一系列旅行产品，助你出行。</p>
 		<p style="color: #666666;">请直接和当地旅行社联系并预订。</p>
+=======
+		<p class="bigtitle">旅行社</p>
+		<p class="middletitle">许多旅行社都会提供一系列旅行产品，助你出行。</p>
+		<p class="smalltitle">	请直接和当地旅行社联系并预订。</p>
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 	</div>
 </template>
 

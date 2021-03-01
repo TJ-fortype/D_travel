@@ -39,7 +39,10 @@
 		background-image: url(../assets/img/dest/hlxj12.jpg);
 		background-size: cover;
 		margin-bottom: 600px;
+<<<<<<< HEAD
 		margin-top:50px;
+=======
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 	}
 	.littlebox {
 		text-align:center;
@@ -51,9 +54,15 @@
 		margin-bottom: 20px;
 	}
 	.literal {
+<<<<<<< HEAD
 		
 		width: 100%;
 		height: 580px;
+=======
+		width: 100%;
+		height: 580px;
+		border: 1px solid #F97C80;
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 		margin-top: 233px;
 	}
 	.destleft {
@@ -62,6 +71,7 @@
 		margin: 50px 140px 40px;
 		text-indent: 2em;
 	}
+<<<<<<< HEAD
 	.destleft p{
 		color: #666;
 		
@@ -78,6 +88,14 @@
 			
 			float: right;
 			margin: 20px 140px 0 0;
+=======
+	.destpart {
+			font-size: 30px;
+		}
+	.destright {
+			float: right;
+			margin: 40px 140px 0 0;
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 			
 		}
 

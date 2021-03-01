@@ -8,6 +8,14 @@
 					<a class="a1" href="#"><div class="f">阅读更多</div></a>
 				</div>
 			</div>	
+<<<<<<< HEAD
+=======
+			<div class="text">
+				<h2>去哪儿？</h2>
+				<hr class="line">
+				<p>探索我们的四个地区：</p>
+			</div>
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 		
 </template>
 
@@ -32,22 +40,37 @@
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
+<<<<<<< HEAD
 		margin-top: 50px;
+=======
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 	}
 	.contain .p {
 		padding-top: 260px;
 		font-size: 16px;
 		font-weight: 400;
 		margin: 0;
+<<<<<<< HEAD
+=======
+		color: #fff;
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 	}
 	.contain .p1 {
 		margin:0;
 		font-size: 40px;
 		font-weight: lighter;
+<<<<<<< HEAD
+=======
+		color: #fff;
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 	}
 	.contain h1 {
 		font-weight: 700;
 		margin: -5px;
+<<<<<<< HEAD
+=======
+		color: #fff;
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 	}
 	.contain .f {
 		border: 1px solid #fff;

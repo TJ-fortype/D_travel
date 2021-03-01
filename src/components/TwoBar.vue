@@ -2,7 +2,11 @@
 	<div class="twomain">
 		<div class="container">
 			<!--标题部分-->
+<<<<<<< HEAD
 			 <Header4Index></Header4Index>
+=======
+			<Header4Index></Header4Index>
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 			
 			<!--图片部分-->
 			<div class="bgimg">
@@ -22,6 +26,7 @@
 </template>
 
 <script>
+<<<<<<< HEAD
 	 import Header4Index from './Header4Index.vue'
 	 // import ReadMore from './ReadMore.vue'
 	 export default {
@@ -43,6 +48,29 @@
 		margin-left: -70px;
 		height:550px;
 		background-image: url(../assets/img/Two22.jpg);
+=======
+	import Header4Index from './Header4Index.vue'
+	// import ReadMore from './ReadMore.vue'
+	export default {
+		//注册当前组件中可以使用的子组件
+		components: {Header4Index,}
+	}
+</script>
+
+<style>
+	.container{
+			width: 100%;
+			height: 722px;
+			margin-bottom: 240px;
+			/* background: #000; */
+		}
+	
+	.twomain .bgimg{
+		position: absolute;
+		width: 100%;
+		height:550px;
+		background-image: url(../assets/img/Two.jpg);
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 		background-position:center center;
 		background-repeat: no-repeat-center;
 		background-size: cover; 

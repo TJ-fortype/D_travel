@@ -7,8 +7,13 @@
 			</div>
 		</div>
 		<div class="infobottom5">
+<<<<<<< HEAD
 			<p style="color: #666666;">怎样在芬兰旅行？</p>
 			<p style="color: #666666;">
+=======
+			<p class="infobottom51">怎样在芬兰旅行？</p>
+			<p class="infobottom52">
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 				在芬兰旅行十分方便。一旦到达芬兰，你很快就会发现，这里的一切就像钟表一样运转准确。<br>
 				除了常规的交通工具之外，还有不少另类的选择呢！<br>
 				为什么不试试骑哈士奇犬或是驯鹿拉的雪橇，或是越野滑雪？
@@ -48,14 +53,22 @@
 		height: 200px;
 		padding-top: 40px;
 		margin-bottom: 30px;
+<<<<<<< HEAD
 		text-align: center;
+=======
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 		/* padding-bottom: 100px; */
 		/* border: 1PX solid #20B2AA; */
 	}
 	.infobottom51{
+<<<<<<< HEAD
 		font-size: 20px;
 		font-weight:bold;
 		margin-top: 20px;
+=======
+		font-size: 14px;
+		font-weight:bold;
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 	}
 	.infobottom52{
 		font-size: 14px;

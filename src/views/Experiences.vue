@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
 <TopBar></TopBar>
 <SectionOne></SectionOne>
 <SectionTwo></SectionTwo>
@@ -20,6 +21,20 @@
 		components:{
 			TopBar,SectionOne,SectionTwo,SectionThree,SectionFour,FooterBar
        
+=======
+
+	<TopBar></TopBar>
+	<Theme></Theme>
+</template>
+
+<script>
+    import TopBar from '../components/TopBar.vue'
+	import Theme from '../components/Theme.vue'
+	
+	export default {
+		components:{
+			Theme,TopBar,
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 		},
 	}
 </script>

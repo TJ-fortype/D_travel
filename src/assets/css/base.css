@@ -7,7 +7,11 @@
 body {
 	margin: 0;
 	color: #999;
+<<<<<<< HEAD
 	 background: #FFFFFF; 
+=======
+	background: #fff;
+>>>>>>> 695bc92f2e1afc1b07b5ca72ed9b0562a2ca5413
 	font-family: "arial, helvetica, sans-serif";  	/*字体*/
 	font-size: 12px;								/*字体大小*/
 	line-height: 1.667;								/*行高：1.667em；*/
